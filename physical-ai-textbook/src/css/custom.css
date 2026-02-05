@@ -1,0 +1,32 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  /* Panaversity Red Palette */
+  --ifm-color-primary: #d6001c;
+  --ifm-color-primary-dark: #c00019;
+  --ifm-color-primary-darker: #b50018;
+  --ifm-color-primary-darkest: #950014;
+  --ifm-color-primary-light: #ec001f;
+  --ifm-color-primary-lighter: #f70020;
+  --ifm-color-primary-lightest: #ff1a38;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  /* Panaversity Dark Mode Red */
+  --ifm-color-primary: #ff4d63;
+  --ifm-color-primary-dark: #ff2a45;
+  --ifm-color-primary-darker: #ff1936;
+  --ifm-color-primary-darkest: #e6001d;
+  --ifm-color-primary-light: #ff7081;
+  --ifm-color-primary-lighter: #ff8290;
+  --ifm-color-primary-lightest: #ffaeb8;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}

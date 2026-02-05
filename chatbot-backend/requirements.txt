@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+openai
+qdrant-client
+psycopg2-binary
+python-dotenv
+httpx
